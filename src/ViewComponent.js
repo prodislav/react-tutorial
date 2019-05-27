@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 
 class ViewComponent extends React.Component {
     constructor(props) {
@@ -17,7 +18,9 @@ class ViewComponent extends React.Component {
                 <input value={this.props.value} onChange={this.props.onChange} />
                 <button onClick={this.props.onAdd}>Add</button>
                 {data && data.length && data.map((el, i) => (
-                    <li key={i}>{el.name}</li>
+                    <li key={i}>
+                        <Link to={`/todoItem/${i}`}>{el.name}</Link>
+                    </li>
                 ))}
                 <button onClick={this.props.onClick}>Detele</button>
             </>
