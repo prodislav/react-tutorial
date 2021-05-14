@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Container from './App.js';
+// import Container from './App.js';
 import * as serviceWorker from './serviceWorker';
 // import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import Home from './home';
-import TodoItem from './TodoItem';
+// import Home from './home';
+// import TodoItem from './TodoItem';
 // import { Link } from 'react-router-dom';
 
 
