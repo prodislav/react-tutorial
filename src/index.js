@@ -11,7 +11,7 @@ import * as serviceWorker from './serviceWorker';
 
 const RouterComponent = () => {
     return (
-        "My Application running with Netlify"
+        "My Application running with Netlify 1"
         // <BrowserRouter>
         //     <Switch>
         //         <Route path='/home' component={Home} />
